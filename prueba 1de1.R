@@ -1,7 +1,7 @@
 library(palmerpenguins)
 library(tidyverse)
 
-penguins %>% ggplot(aes(x=bill_length_mm))+
+penguins %>% ggplot(aes(x=flipper_length_mm))+
   geom_histogram()
 
-#hola pringao jajaja
+f=penguins
